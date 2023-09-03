@@ -1,0 +1,57 @@
+
+
+/* грид блока "Наша команда" */
+
+.team{
+    margin-left: 165px;
+    margin-right: 165px;
+    height: 580px;
+    display: grid;
+    grid-template-columns: 600px 600px;    
+}
+.content-team{
+    margin-top: 0;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px 100px;
+
+}
+.team-h{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+    color: #2C2D35;
+font-family: 'Raleway';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+}
+
+.team-p{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+
+    color: #2C2D35;
+font-family: 'Raleway';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+
+#author1{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+#author2{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#author3{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}

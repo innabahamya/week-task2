@@ -1,0 +1,94 @@
+
+/* Футер оформление */
+footer{
+    background:  #E1EDE6;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 10px 600px 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.footer-lg{
+   margin: 20px;
+   display: grid;
+   grid-template-rows: 50px 50px 50px;
+   
+}
+
+.nav-footer{
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   grid-template-rows: 30px 30px 30px 30px;
+}
+
+.nav1{
+   grid-column: 1/2;
+   grid-row: 1/2;
+   margin: 10px;
+   
+}
+.nav2{
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin: 10px;
+}
+.nav3{
+   grid-column: 1/2;
+   grid-row: 3/4;
+   margin: 10px;
+}
+.nav4{
+   grid-column: 1/2;
+   grid-row: 4/5;
+   margin: 10px;
+}
+ 
+.nav5{
+   grid-column: 2/3;
+   grid-row: 1/2;
+   margin: 10px;
+}
+.nav6{
+   grid-column: 2/3;
+   grid-row: 2/3;
+   margin: 10px;
+}
+.nav7{
+   grid-column: 2/3;
+   grid-row: 3/4;
+   margin: 10px;
+}
+.nav8{
+   grid-column: 3/4;
+   grid-row: 1/2;
+   margin: 10px;
+}
+.nav9{
+   grid-column: 3/4;
+   grid-row: 2/3;
+   margin: 10px;
+}
+.nav10{
+   grid-column: 3/4;
+   grid-row: 3/4;
+   margin: 10px;
+}
+/* Оформление */
+ .black{
+   color: #2C2D35;
+font-family: 'Raleway';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+ }
+
+ .grey{
+   color: #86928B;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+ }

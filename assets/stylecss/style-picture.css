@@ -1,0 +1,124 @@
+
+.menu{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: grid;
+    grid-template-columns:  60% 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.menu-h{   
+        font-family: 'Raleway';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    color: #2C2D35;
+    }
+    
+    .article-picture{
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        justify-items: center;
+       
+        
+    }
+    .article1, .article2, .article3, .article4, .article5, .article6{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px; 
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* .article2{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .article3{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .article4{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .article5{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .article6{
+        background: #E1EDE6;
+        width: 350px;
+        height: 730px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .artist-name{
+        color: #86928B;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .picture-name{
+        color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .material{
+        color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .price{
+        color: #598D66;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    
+    
